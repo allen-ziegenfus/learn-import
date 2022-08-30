@@ -122,8 +122,7 @@ def get_structured_content_request_body(sphinx_article: dict):
         ],
         "contentStructureId": config["ARTICLE_STRUCTURE_ID"],
         # friendlyUrlPaths are all lower case (otherwise Liferay will modify it)
-        # "friendlyUrlPath": f"{sphinx_article['product']}/{sphinx_article['version']}/{translations[0]['current_page_name'].lower()}.html",
-        "friendlyUrlPath": f"{sphinx_article['product']}/{translations[0]['current_page_name'].lower()}.html",
+        "friendlyUrlPath": f"{sphinx_article['product']}/{sphinx_article['version']}/{translations[0]['current_page_name'].lower()}.html",
         "title_i18n": title_i18n,
         "title": translations[0]["title"],
     }
