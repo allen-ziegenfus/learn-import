@@ -100,9 +100,9 @@ def add_redirect(sourceURL, destinationURL):
     print(res.status_code)
 
 
-add_redirect(
-    "commerce/latest/ja/developer-guide/content/adding-a-new-product-data-source-for-the-product-publisher-widget.html",
-    "https://learn-uat.lxc.liferay.com/ja/web/learn/w/commerce/developer-guide/content/adding-a-new-product-data-source-for-the-product-publisher-widget.html",
-)
+#add_redirect(
+    #"commerce/latest/ja/developer-guide/content/adding-a-new-product-data-source-for-the-product-publisher-widget.html",
+    #"https://learn-uat.lxc.liferay.com/ja/web/learn/w/commerce/developer-guide/content/adding-a-new-product-data-source-for-the-product-publisher-widget.html",
+#)
 
 # fetch_redirect(718290)
